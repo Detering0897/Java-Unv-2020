@@ -17,6 +17,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        /*
         int[] arr = {29, 45, 64, 3, 34, 8, 43, 87, 15, 69};
         int sum =0;
         for (int i = 0; i < 10; ++i)
@@ -69,6 +70,6 @@ public class Main {
         int fact = 1;
 
         System.out.println(factorial(8));
-
+        */
     }
 }

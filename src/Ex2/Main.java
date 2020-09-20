@@ -55,12 +55,12 @@ class Pitom{
 public class Main {
     public static void main(String[] args)
     {
-        Dog bobby = new Dog("Bob",7);
-        bobby.setAge(11);
-        bobby.setName("Old Bob");
+        //Dog bobby = new Dog("Bob",7);
+        //bobby.setAge(11);
+        //bobby.setName("Old Bob");
         //System.out.println(bobby.ToString());
         //System.out.println(bobby.ageInHum());
-        Pitom central = new Pitom();
-        central.addNew(2);
+        //Pitom central = new Pitom();
+        //central.addNew(2);
     }
 }
