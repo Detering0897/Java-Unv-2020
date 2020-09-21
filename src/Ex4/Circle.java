@@ -4,8 +4,7 @@ public class Circle extends Shape
 {
     private double radius = 0;
 
-    public Circle()
-    {}
+
     public Circle(double in_radius)
     {
         radius = in_radius;

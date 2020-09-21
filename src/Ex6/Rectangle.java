@@ -1,14 +1,12 @@
-package Ex4;
+package Ex6;
 
-import org.w3c.dom.css.Rect;
 
 public class Rectangle extends Shape
 {
     protected double width = 0;
     protected double length = 0;
 
-    public Rectangle(double in_width, double in_length,
-                     String in_color, boolean in_filled)
+    public Rectangle(double in_width, double in_length, String in_color, boolean in_filled)
     {
         super(in_color,in_filled);
         width = in_width;

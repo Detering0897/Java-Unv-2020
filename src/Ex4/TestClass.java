@@ -6,10 +6,10 @@ public class TestClass
     {
         Shape s1 = new Circle(10, "Blue", false);
         System.out.println(s1);
-        System.out.println(s1.getArea());
-        System.out.println(s1.getPerimeter());
-        System.out.println(s1.getColor());
-        System.out.println(s1.isFilled());
+        //System.out.println(s1.getArea());
+        //System.out.println(s1.getPerimeter());
+        //System.out.println(s1.getColor());
+        //System.out.println(s1.isFilled());
 
         Circle c1 = (Circle)s1;
         System.out.println(c1);

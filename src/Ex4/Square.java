@@ -1,7 +1,7 @@
 package Ex4;
 
 public class Square extends Rectangle {
-    Square() {}
+
     Square(double in_side)
     {
         width = in_side;

@@ -1,9 +1,9 @@
 package Ex3;
 
 class Book {
-    String author= "";
-    String name = "";
-    int year = 1900;
+    private String author= "";
+    private String name = "";
+    private int year = 1900;
     public void setAuthor(String au) {
         author = au;
     }

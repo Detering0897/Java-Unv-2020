@@ -1,4 +1,4 @@
-package Ex4;
+package Ex6;
 
 public abstract class Shape {
     protected String color = "not color";
