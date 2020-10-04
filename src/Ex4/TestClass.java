@@ -4,7 +4,7 @@ public class TestClass
 {
     public static void main(String[] arg)
     {
-        Shape s1 = new Circle(10, "Blue", false);
+        /*Shape s1 = new Circle(10, "Blue", false);
         System.out.println(s1);
         //System.out.println(s1.getArea());
         //System.out.println(s1.getPerimeter());
@@ -31,7 +31,7 @@ public class TestClass
         //System.out.println(r1.getColor());
         //System.out.println(r1.getLength());
 
-        Shape s4 = new Square(4);
+        //Shape s4 = new Square(4);
         System.out.println(s4);
         //System.out.println(s4.getArea());
         //System.out.println(s4.getColor());
@@ -47,6 +47,6 @@ public class TestClass
         //System.out.println(sq1.getArea());
         //System.out.println(sq1.getColor());
         //System.out.println(sq1.getSide());
-        //System.out.println(sq1.getLength());
+        //System.out.println(sq1.getLength());*/
     }
 }

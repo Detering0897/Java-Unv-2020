@@ -1,4 +1,7 @@
-package Ex4;
+package Ex8.Point1;
+
+import java.awt.*;
+import java.util.Random;
 
 public class Circle extends Shape
 {
@@ -31,5 +34,17 @@ public class Circle extends Shape
     {
         return "Circle, radius: " + radius +
                 ", color: " + color + ", filled: " + filled;
+    }
+    public void paintComponent(Graphics g)
+    {
+        randcol();
+        x = Math.random() * 20 + 10;
+        y = Math.random() * 20 + 10;
+        radius = Math.random() * 5 ;
+
+        Random rand = new Random();
+        g.setColor(new Color(rand.nextFloat(), rand.nextFloat(), rand.nextFloat()));
+
+        g.fillOval(0, 0, 90, 90);
     }
 }
