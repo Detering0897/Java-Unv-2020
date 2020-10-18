@@ -36,8 +36,8 @@ public class WidgetClass extends JFrame{
         setVisible(true);
     }
     public static void main(String[] arg) {
-        /*
+
         JFrame.setDefaultLookAndFeelDecorated(true);
-        new WidgetClass();*/
+        new WidgetClass();
     }
 }
