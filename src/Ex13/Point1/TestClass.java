@@ -1,6 +1,5 @@
 package Ex13.Point1;
 
-import Ex12.TestFrame;
 
 import javax.swing.*;
 import java.util.Arrays;

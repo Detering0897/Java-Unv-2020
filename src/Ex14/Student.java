@@ -28,14 +28,6 @@ public class Student implements Test{
     }
 
     @Override
-    public String toString() {
-        return "Student{" +
-                "number=" + number +
-                ", idNum=" + idNum +
-                '}';
-    }
-
-    @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
         if (obj == null || getClass() != obj.getClass()) return false;
@@ -43,19 +35,15 @@ public class Student implements Test{
         return idNum == st.idNum && Double.compare(st.number, number) == 0;
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(idNum, number);
-    }
 
     public static void linearSearch(Test[] sts, double number) {
         long start = System.currentTimeMillis();
         for (int i = 0; i < 5; i++) {
             if (number == sts[i].getNumber()) {
-                System.out.println("Линейный поиск: "+"\n"+number+" это "+(i+1)+" элемент в массиве");
+                System.out.println(number+" position -  "+(i+1));
                 long finish = System.currentTimeMillis();
                 long elapsed = finish - start;
-                System.out.println("Время поиска: "+elapsed+" нc");
+                System.out.println("Time: "+elapsed);
                 break;
             }
         }
@@ -75,12 +63,12 @@ public class Student implements Test{
             pos = (first + last) / 2;
         }
         if (first <= last) {
-            System.out.println("Бинарный поиск: "+"\n"+key + " это " + ++pos + " элемент в массиве");
+            System.out.println(key + " postion - " + (pos+1) );
             long finish = System.currentTimeMillis();
             long elapsed = finish - start;
-            System.out.println("Время поиска: "+elapsed+" нc");
+            System.out.println("Time: "+elapsed);
         }
         else
-            System.out.println("Элемент в массиве не найден");
+            System.out.println("Error");
     }
 }
